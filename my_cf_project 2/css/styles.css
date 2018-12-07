@@ -1,0 +1,112 @@
+H1{
+  font-family: cursive, arial, san-serif; text-align: center; color: blue;
+
+}
+p {
+  text-align: left;
+}
+
+h2, h3, h4 {
+  color: red;
+}
+
+
+body {
+        background-color: #fffeea;
+        color: #34495e
+      }
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.container a {
+  color: white;
+  display: inline-block;
+  padding: 5px 5px;
+ }
+
+ a:hover {
+
+     text-decoration: none;
+     transition: color 600ms;
+     -webkit-transition: color 600ms;
+
+   }
+
+.nav {
+   overflow: hidden;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   left: 0;
+   width: 100%; /* Full width */
+   word-spacing: 50px;
+}
+
+
+}
+
+/**** accordian styling ****/
+
+.card-header {
+  background: red;
+}
+.card-header button {
+
+}
+.card-body {
+  font-size: 18px;
+}
+a{
+  color: red;
+}
+.container a {
+  color: white;
+  display: inline-block;
+  padding: 5px 5px;
+  font-family: arial-black, arial, san-serif;
+}
+  a:hover {
+      background-color: blue;
+      text-decoration: none;
+      transition: color 600ms;
+      -webkit-transition: color 600ms;
+
+    }
+
+.nav {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    word-spacing: 50px;
+}
+h5 {
+  font-size: 3em; color: white;
+}
+
+p1 {
+  font-size: 2em; color: white;
+}
+
+
+/**** Contact page ****/
+
+.jumbotron { background-image: url("../img/river1.jpg");
+height:780px width:1024px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .jumbotron center {  color: white; }
+    .jumbotron a { color: white; }
+    .jumbotron h1 { color: white;}
+    .container h2 { color:red;}
+
+    body {
+        background-color: #fffeea;
+        color: #34495e
+      }
+
+/**** end contact page ****?
