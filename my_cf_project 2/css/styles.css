@@ -23,7 +23,7 @@ body {
 }
 
 .container a {
-  color: white;
+  color: red;
   display: inline-block;
   padding: 5px 5px;
  }
@@ -33,7 +33,7 @@ body {
      text-decoration: none;
      transition: color 600ms;
      -webkit-transition: color 600ms;
-     background-color: yellow;
+     background-color: blue;
      text-decoration: none;
      transition: color 600ms;
      -webkit-transition: color 600ms;
@@ -48,6 +48,13 @@ body {
    width: 100%; /* Full width */
    word-spacing: 50px;
 }
+nav {
+ height: 40px; padding: 5px;
+}
+a{
+  color: red; margin-top: 10px;
+}
+
 
 
 }
@@ -63,9 +70,7 @@ body {
 .card-body {
   font-size: 18px;
 }
-a{
-  color: red;
-}
+
 .container a {
   color: white;
   display: inline-block;
@@ -90,9 +95,7 @@ p1 {
   font-size: 2em; color: white;
 }
 
-nav {
- height: 40px; padding: 5px; 
-}
+
 
 
 /**** Contact page ****/
@@ -111,6 +114,15 @@ height:780px width:1024px;
     .jumbotron h1 { color: yellow; }
     .container h2 { color:red;}
 
+body {
+  position: relative;
+}
 
+#contact {
+  background-image: url("../img/beach.jpg"); padding-top: 10px;
+}
+p3 {
+   color: white;
+}
 
 /**** end contact page ****
