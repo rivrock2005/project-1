@@ -1,6 +1,7 @@
 body {
   background-color: #fffeea;
   color: #34495e
+  position: relative;
 }
 
 H1 {
@@ -29,7 +30,9 @@ h4 {
 h5 {
   font-size: 3em;
   color: white;
-  font-family: cursive, arial
+  font-family: cursive, arial;
+  text-align: center;
+
 }
 
 h6 {
@@ -42,6 +45,7 @@ h6 {
 .serve {
   font-size: 2em;
   color: white;
+  text-align: center;
 }
 
 .work {
@@ -87,7 +91,7 @@ a:hover {
   width: 100%;
   /* Full width */
   word-spacing: 50px;
-}
+  }
 
 nav {
   height: 40px;
@@ -96,7 +100,7 @@ nav {
 
 a {
   color: red;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 img{
   float: left;
@@ -106,10 +110,12 @@ img{
 
 /**** accordian styling ****/
 .card-header {
-  background: red;
+  background: grey;
 }
 
-.card-header button {}
+.card-header button {
+  color: white;
+}
 
 .card-body {
   font-size: 18px;
@@ -122,16 +128,7 @@ img{
   font-family: arial-black, arial, san-serif;
 }
 
-.nav {
-  overflow: hidden;
-  position: fixed;
-  /* Set the navbar to fixed position */
-  top: 0;
-  /* Position the navbar at the top of the page */
-  left: 0;
-  width: 100%;
-  /* Full width */
-  word-spacing: 50px;
+
 
   /**** Contact page ****/
   .jumbotron {
@@ -157,9 +154,7 @@ img{
     color: red;
   }
 
-  body {
-    position: relative;
-  }
+
 
   p3 {
     color: white;
@@ -177,6 +172,11 @@ img{
     /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
     height: 400px;
   }
+  label{
+    font-size: 1.5em; color: red;
+  }
+
+
 
   footer {
     padding-bottom: 20px;
