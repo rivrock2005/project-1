@@ -49,12 +49,10 @@ body {
    width: 100%; /* Full width */
    word-spacing: 50px;
 }
-nav {
- height: 40px; padding: 5px;
+.nav-item {
+  padding-top: 0px; height: 40px;
 }
-a{
-  color: red; margin-top: 10px;
-}
+
 
 img{
   float: left;
@@ -62,12 +60,12 @@ img{
   margin-bottom: 10px;
 }
 
-}
+
 
 /**** accordian styling ****/
 
 .card-header {
-  background: red;
+  background: white;
 }
 .card-header button {
 
@@ -78,24 +76,15 @@ img{
 
 .container a {
   color: white;
-  background-color: red;
+  background-color: blue;
   display: inline-block;
   padding: 5px 5px;
   font-family: arial-black, arial, san-serif;
 }
 
 
-.nav {
-    overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 5px; /* Position the navbar at the top of the page */
-    left: 0;
-    width: 100%; /* Full width */
-    word-spacing: 50px;
-}
-ul li a{
-  padding-top: 5px; color:red;
-}
+
+
 h5 {
   font-size: 3em; color: white;
 }
@@ -141,5 +130,6 @@ p3 {
     color: white; /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
     height: 400px;
 }
+
 
 /**** end contact page ****
