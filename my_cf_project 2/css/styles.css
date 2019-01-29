@@ -29,6 +29,7 @@ body {
   padding: 5px 5px;
  }
 
+
  a:hover {
 
      text-decoration: none;
@@ -55,8 +56,8 @@ body {
 
 
 img{
-  float: left;
-  margin-right: 10px;
+
+  margin-right: 20px;
   margin-bottom: 10px;
 }
 
@@ -129,6 +130,25 @@ p3 {
     background-size: cover; /*Have the background cover the entire div section*/
     color: white; /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
     height: 400px;
+}
+@media (min-width: 768px) {
+  .modal-button button {
+    float: right;
+  }
+  .modal-title{
+    color: red;
+    background-color: white;
+  }
+  .modal-body{
+    background-color: white;
+    color: red;
+  }
+  .modal-header{
+    background-color: white;
+  }
+  #modalembed {
+  height: 500px;
+  width: 500%;
 }
 
 
