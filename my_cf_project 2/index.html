@@ -125,7 +125,9 @@
             jQuery,Python,PHP and Ruby. To create a website that is user friendly
             and portrays myself in a professional manner.
           </p>
-                <a class="btn btn-primary" href="about.html" role="button">View details &raquo;</a>
+          <button type="button" class="btn btn-primary" data-toggle="tooltip"
+          data-placement="top" title="more details to come">View details &raquo;
+         </button>
           </div>
 
 
@@ -136,7 +138,9 @@
               hope to finish a month early.
             </p>
 
-     <a class="btn btn-primary" href="#" role="button">View details &raquo;</a>
+            <button type="button" class="btn btn-primary" data-toggle="tooltip"
+            data-placement="top" title="more details to come">View details &raquo;
+           </button>
 </div>
 
   <div class="col-sm">
@@ -147,7 +151,11 @@
       is to be able to work remotely but will work any position to gain the
       experience needed to obtain my goal.
     </p>
- <a class="btn btn-primary" href="#" role="button">View details &raquo;</a>
+ <!--<a class="btn btn-primary" href="#" role="button">View details &raquo;</a>
+this is just a button link no tooltip-->
+ <button type="button" class="btn btn-primary" data-toggle="tooltip"
+ data-placement="top" title="more details to come">View details &raquo;
+</button>
 </div>
 </div>
 </div>
@@ -459,10 +467,23 @@ data-parent="#accordion">
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
        crossorigin="anonymous"></script>
+
+       <script>
+ $(function () {
+   $("#item1").tooltip();
+ });
+</script>
+
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+
     </body>
   </html>
-<!-- CONTACTME PG CONTENT ends here -->
-  <!-- ============================= -->
+
+
 
 <!-- After condensing all HTML pgs, All your JavaScript comes now -->
   <script type="text/javascript">
