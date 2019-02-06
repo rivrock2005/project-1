@@ -75,13 +75,7 @@
       </ol>
 
       <div class="carousel-caption d-none d-md-block">
-           <h5>
-             Chris Ashton
-           </h5>
 
-        <p1>
-            serving all of your web development needs
-          </p1>
 </div>
 
         <div class="carousel-inner">
@@ -120,7 +114,7 @@
       <div class="row">
         <div class="col-sm">
           <h2>Portfolio Concept</h2>
-          <p>
+          <p class="paragraph">
             To create a portfolio that shows my knowledge in HTML,CSS,JavaScript
             jQuery,Python,PHP and Ruby. To create a website that is user friendly
             and portrays myself in a professional manner.
@@ -169,7 +163,7 @@ this is just a button link no tooltip-->
   </div><!-- end header -->
 
   <div class="example">
-    <h1>About Me</h1>
+    <h2>About Me</h2>
   </div>
 
   <div class="container">
@@ -196,7 +190,7 @@ this is just a button link no tooltip-->
 
     <ul id="skill-list">
 
-      <h3>My Skills</h3>
+      <h2>My Skills</h2>
         <ul>
           <li>html</li>
             <li>CSS</li>
@@ -209,7 +203,7 @@ this is just a button link no tooltip-->
         </ul>
     </div>
   <div class="main-text">
-      <h4>My Story</h4>
+      <h2>My Story</h2>
         <P>
           It all started at the University of Nevada Reno My freshman
           year of college. When I met some friends that took me whitewater
@@ -348,78 +342,77 @@ this is just a button link no tooltip-->
 
   <!--how to do a collapsable group -->
 
-<div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse"
-        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Web Design
-        </button>
-      </h5>
-    </div>
+  <div class="container-fluid content new-section" id="faq">
+         <div class="header">
+           <h2>FAQ</h2>
+         </div>
+         <div id="accordion">
+           <div class="card">
+             <div class="card-header" id="headingOne">
+               <h5 class="mb-0">
+                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                   <i class="fas fa-desktop"></i> Web Design
+                 </button>
+               </h5>
+             </div> <!-- end headingOne-->
 
-    <div id="collapseOne" class="#missing class show" aria-labelledby="headingOne"
-    data-parent="#accordion">
-      <div class="card-body">
+             <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+              data-parent="#accordion">
+               <div class="card-body">
+                 Websites have changed. Question is, has yours?
+                 In today’s world, every business needs a responsive design website to reach
+                 customers no matter how they search. Already have a website? That’s great,
+                 but is it the right one? I will make sure your website appears
+                 correctly no matter what device a potential customer is viewing it on—phone,
+                 tablet, laptop, desktop, doesn’t matter, your responsive website will appear
+                 just as you intended it to be on every device.
+               </div><!-- end card-body-->
+             </div><!-- end collapseOne -->
+           </div> <!-- end card -->
 
-        Websites have changed. Question is, has yours?
-        In today’s world, every business needs a responsive design website to reach
-        customers no matter how they search. Already have a website? That’s great,
-        but is it the right one? I will make sure your website appears
-        correctly no matter what device a potential customer is viewing it on—phone,
-        tablet, laptop, desktop, doesn’t matter, your responsive website will appear
-        just as you intended it to be on every device.
+           <div class="card">
+             <div class="card-header" id="headingTwo">
+               <h5 class="mb-0">
+                 <button class="btn btn-link collapsed" data-toggle="collapse"
+                 data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   <i class="fas fa-chart-line"></i> SEO
+                 </button>
+               </h5>
+             </div> <!-- end headingTwo -->
+             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+             data-parent="#accordion">
+               <div class="card-body">
+                 SEO (search engine optimization) places your website in the natural
+                 results section of search engines. Getting found through direct searches
+                 is the best way to achieve success online. Though there are many SEO
+                 companies to choose from you can trust our SEO experts to help get you there.
 
+               </div>
+             </div><!-- end collapseTwo -->
+           </div> <!-- end card -->
 
-
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse"
-         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-         <i class="fas fa-envelope"></i>
-         SEO
-
-       </button>
-  </h5>
-</div>
-<div id="collapseTwo" class="#missing class" aria-labelledby="headingTwo"
-data-parent="#accordion">
-  <div class="card-body">
-    SEO (search engine optimization) places your website in the natural
-    results section of search engines. Getting found through direct searches
-    is the best way to achieve success online. Though there are many SEO
-    companies to choose from you can trust our SEO experts to help get you there.
-
-  </div>
-</div>
-</div>
-<div class="card">
-<div class="card-header" id="headingThree">
-  <h5 class="mb-0">
-    <button class="btn btn-link collapsed" data-toggle="collapse"
-    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-    Social Media
-
-  </button>
- </h5>
-</div>
-<div id="collapseThree" class="#missing-class" aria-labelledby="headingThree"
-data-parent="#accordion">
- <div class="card-body">
-   My social media advertising services expedites your results. You can reach
-   people instantly. This means you can generate followers, engagement, and
-   website traffic fast. The more ad dollars you’re able to provide, the more
-   people we can reach. As you reach more people, you open up the door for more
-   awareness, traffic and sales.
-
- </div>
-  </div>
-    </div>
+           <div class="card">
+             <div class="card-header" id="headingThree">
+               <h5 class="mb-0">
+                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                   <i class="fas fa-music"></i> Social Media
+                 </button>
+               </h5>
+             </div><!-- end headingThree -->
+             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+               <div class="card-body">
+                 My social media advertising services expedites your results. You can reach
+                 people instantly. This means you can generate followers, engagement, and
+                 website traffic fast. The more ad dollars you’re able to provide, the more
+                 people we can reach. As you reach more people, you open up the door for more
+                 awareness, traffic and sales.
+               </div>
+             </div> <!-- end collapseThree -->
+           </div><!-- end card -->
+         </div>
+         <hr>
+       </div>
 
     <div class="container">
     <div class="row">
