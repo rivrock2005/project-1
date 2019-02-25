@@ -23,6 +23,25 @@ $(document).ready(function(){
   $(".message-box").css("border", "2px solid red");
   $(".message-box").css("background-color", "pink");
 
+  $(".message-box").on("keyup", function() {
+  console.log("keyup happened");
+  var NameName = 55;
+  var Name = 'string';
+  var charCount = $(".message-box").val().length;
+  //here we set the length of the content of the textarea to a variable
+  console.log(charCount);
+  $("#char-count").html(charCount);
+
+  if(charCount > 50) {
+  $("#char-count").css("color", "red");
+}
+  else {
+  $("#char-count").css("color", "black")
+};
+
+  });
+
+  
   // message form
   $('#button').on('click', function(){
     var usrName = $('#name').val();
