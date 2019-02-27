@@ -41,7 +41,7 @@ $(document).ready(function(){
 
   });
 
-  
+
   // message form
   $('#button').on('click', function(){
     var usrName = $('#name').val();
@@ -61,5 +61,11 @@ $(document).ready(function(){
     $('.message-box').hide();
 
     return false;
+
+
+    // work section
+console.log(works);
+
+});
   });
 });
