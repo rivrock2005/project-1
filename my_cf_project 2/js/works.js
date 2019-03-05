@@ -1,4 +1,4 @@
-var works =[
+var work =[
   {
     title: "First Project",
     pic: "img/me.jpeg",
@@ -6,7 +6,7 @@ var works =[
   },
   {
     title: "Second Project",
-    pic: "img/ocean.jpg",
+    pic: "img/me.jpeg",
     url: "https://www.krop.com/profile/mjennings/"
   },
   {
