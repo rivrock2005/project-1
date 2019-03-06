@@ -1,22 +1,22 @@
 var work =[
   {
     title: "First Project",
-    pic: "img/me.jpeg",
-
+    pic: "img/download.png",
+    url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
   },
   {
     title: "Second Project",
-    pic: "img/me.jpeg",
+    pic: "img/download.png",
     url: "https://www.krop.com/profile/mjennings/"
   },
   {
     title: "Third Project",
-    pic: "img/me.jpeg",
+    pic: "img/download.png",
     url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
   },
   {
     title: "Fourth Project",
-    pic: "img/me.jpeg",
+    pic: "img/download.png",
     url: "https://www.krop.com/profile/mjennings/"
   },
   {
@@ -26,17 +26,17 @@ var work =[
   },
   {
     title: "Sixth Project",
-    pic: "img/me.jpeg",
+    pic: "img/ocean.jpg",
     url: "https://www.krop.com/profile/mjennings/"
   },
   {
     title: "Seventh Project",
-    pic: "img/me.jpeg",
+    pic: "img/beach.jpg",
     url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
   },
   {
     title: "Eighth Project",
-    pic: "img/black-and-white-creative-desk-pen.jpg",
+    pic: "img/ocean.jpg",
     url: "https://www.krop.com/profile/mjennings/"
   }
 ]
