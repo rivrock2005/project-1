@@ -1,0 +1,103 @@
+h2 {
+  color: red;
+}
+
+body {
+  background-color: #fffeea;
+  color: #34495e
+      }
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+
+
+a:hover {
+     text-decoration: none;
+     transition: color 600ms;
+     -webkit-transition: color 600ms;
+     background-color: blue;
+     text-decoration: none;
+     transition: color 600ms;
+     -webkit-transition: color 600ms;
+
+   }
+
+.nav {
+   overflow: hidden;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   left: 0;
+   width: 100%; /* Full width */
+   word-spacing: 50px;
+}
+
+.nav-item {
+  padding-top: 0px; height: 40px;
+}
+
+/****works page****/
+
+img{
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/**** accordian styling ****/
+
+.card-header {
+  background: white;
+}
+.card-header button {
+
+}
+.card-body {
+  font-size: 18px;
+}
+
+
+
+/**** Contact page ****/
+
+.display-4{
+  font-family: cursive, arial, san-serif; text-align: center; color: blue;
+  padding-top: 100px;
+}
+
+body {
+  position: relative;
+}
+
+#contact {
+    background-image: url("../img/beach.jpg"); /*Add a background image*/
+    margin-top: 50px;
+    background-attachment: fixed; /*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover; /*Have the background cover the entire div section*/
+    color: white; /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+    height: 400px;
+}
+
+/**** faq page****/
+
+@media (min-width: 768px) {
+  .modal-button button {
+    float: right;
+  }
+  .modal-title{
+    color: red;
+    background-color: white;
+  }
+  .modal-body{
+    background-color: white;
+    color: red;
+  }
+  .modal-header{
+    background-color: white;
+  }
+  #modalembed {
+  height: 500px;
+  width: 500%;
+}
