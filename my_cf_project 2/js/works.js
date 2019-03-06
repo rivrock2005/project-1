@@ -1,22 +1,22 @@
 var work =[
   {
     title: "First Project",
-    pic: "img/download.png",
+    pic: "img/me.jpeg",
     url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
   },
   {
     title: "Second Project",
-    pic: "img/download.png",
+    pic: "img/ocean.jpg",
     url: "https://www.krop.com/profile/mjennings/"
   },
   {
     title: "Third Project",
-    pic: "img/download.png",
+    pic: "img/beach.jpg",
     url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
   },
   {
     title: "Fourth Project",
-    pic: "img/download.png",
+    pic: "img/me.jpeg",
     url: "https://www.krop.com/profile/mjennings/"
   },
   {
