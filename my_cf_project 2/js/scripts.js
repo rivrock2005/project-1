@@ -103,9 +103,9 @@ $(document).ready(function(){
          ");
          var images = $("#work-images img");
        if (i % 2 === 0) {
-           $(images[i]).css("border", "1px solid #0e8 ");
+           $(images[i]).css("border", "4px solid green ");
        } else {
-           $(images[i]).css("border", "1px solid black");
+           $(images[i]).css("border", "4px solid red");
        };
    };
    $(".work-img").mouseenter(function(){

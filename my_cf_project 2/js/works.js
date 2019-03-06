@@ -1,7 +1,7 @@
-var work =[
+var works =[
   {
     title: "First Project",
-    pic: "img/me.jpeg",
+    pic: "img/beach.jpg",
     url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
   },
   {
@@ -11,7 +11,7 @@ var work =[
   },
   {
     title: "Third Project",
-    pic: "img/beach.jpg",
+    pic: "img/me.jpeg",
     url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
   },
   {
@@ -26,17 +26,17 @@ var work =[
   },
   {
     title: "Sixth Project",
-    pic: "img/ocean.jpg",
+    pic: "img/me.jpeg",
     url: "https://www.krop.com/profile/mjennings/"
   },
   {
     title: "Seventh Project",
-    pic: "img/beach.jpg",
+    pic: "img/me.jpeg",
     url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
   },
   {
-    title: "Eighth Project",
-    pic: "img/ocean.jpg",
+    title: "me.jpeg",
+    pic: "img/black-and-white-creative-desk-pen.jpg",
     url: "https://www.krop.com/profile/mjennings/"
   }
 ]
