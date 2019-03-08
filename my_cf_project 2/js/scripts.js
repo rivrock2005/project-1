@@ -113,4 +113,16 @@ $(document).ready(function(){
    }).mouseleave(function(){
      $(".info", this).hide();
    });
+
+   $("#work").append("\
+  <div class='col-sm-3 col-md-3'>\
+    <a href='#' class='work-img'>\
+      <img class='img-responsive' src='" + works[i].pic + "'>\
+    </a>\
+  </div>\
+");
+
+$(".work-img").mouseenter( function() {
+});
+
 });
