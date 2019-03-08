@@ -15,7 +15,7 @@ body {
   float: right;
 }
 
-a:hover {
+.nav-link:hover {
   text-decoration: none;
   transition: color 600ms;
   -webkit-transition: color 600ms;

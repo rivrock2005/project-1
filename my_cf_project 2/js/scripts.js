@@ -96,14 +96,14 @@ $(document).ready(function(){
         $("#work-images").append("\
            <div class='col-sm-12 col-md-6 col-lg-6'>\
            <a href='" + works[i].url + "' target='_blank' class='work-img'>\
-             <img class='img-fluid' src='" + works[i].pic + "'>\
+             <img class='img-responsive' src='" + works[i].pic + "'>\
              <span class='info'><p class='proj-title'>Title:</p>" + works[i].title + "</span>\
              </a>\
            </div>\
          ");
          var images = $("#work-images img");
        if (i % 2 === 0) {
-           $(images[i]).css("border", "4px solid green ");
+           $(images[i]).css("border", "4px solid purple ");
        } else {
            $(images[i]).css("border", "4px solid red");
        };

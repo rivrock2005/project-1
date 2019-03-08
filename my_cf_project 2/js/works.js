@@ -2,41 +2,31 @@ var works =[
   {
     title: "First Project",
     pic: "img/beach.jpg",
-    url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
+
   },
   {
     title: "Second Project",
-    pic: "img/ocean.jpg",
-    url: "https://www.krop.com/profile/mjennings/"
+    pic: "img/riochile.jpg",
+
   },
   {
     title: "Third Project",
-    pic: "img/me.jpeg",
-    url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
+    pic: "img/beach 2.jpg",
+
   },
   {
     title: "Fourth Project",
-    pic: "img/me.jpeg",
-    url: "https://www.krop.com/profile/mjennings/"
+    pic: "img/kaituna.jpg",
+
   },
   {
     title: "Fifth Project",
-    pic: "img/me.jpeg",
-    url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
+    pic: "img/beach 3.jpg",
+
   },
   {
     title: "Sixth Project",
-    pic: "img/me.jpeg",
-    url: "https://www.krop.com/profile/mjennings/"
-  },
-  {
-    title: "Seventh Project",
-    pic: "img/me.jpeg",
-    url: "https://www.slideshare.net/slideshow/embed_code/key/tIUFsUCQAM0otY"
-  },
-  {
-    title: "me.jpeg",
-    pic: "img/black-and-white-creative-desk-pen.jpg",
-    url: "https://www.krop.com/profile/mjennings/"
+    pic: "img/chute.jpg",
+
   }
 ]
