@@ -122,7 +122,20 @@ $(document).ready(function(){
   </div>\
 ");
 
+$(".work-img").mouseenter(function(){
+  $(".info", this).show();
+}).mouseleave(function(){
+  $(".info", this).hide();
+});
+
 $(".work-img").mouseenter( function() {
+  $(".info", this).show();
+});
+
+$(".work-img").mouseenter(function(){
+  $(".info", this).show();
+}).mouseleave(function(){
+  $(".info", this).hide();
 });
 
 });
