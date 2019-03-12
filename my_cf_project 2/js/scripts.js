@@ -138,4 +138,12 @@ $(".work-img").mouseenter(function(){
   $(".info", this).hide();
 });
 
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 38.729626, lng: -120.798546},
+    zoom: 8
+  });
+}
+
 });
