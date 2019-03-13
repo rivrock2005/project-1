@@ -168,3 +168,17 @@ body {
   .learn {
     padding-left: 350px;
   }
+
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: ;
+    color: red;
+    text-align: center;
+  }
+
+  .twitter-follow-button {
+    padding bottom: 15px;
+  }
