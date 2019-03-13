@@ -1,11 +1,15 @@
 h2 {
   color: red;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-top: 110px;
+  padding-left: 15px;
 }
 
-.contactme {
-  padding-left: 0px
+h3 {
+  color: red;
+}
+
+.contact-info {
+  padding-left: 80px
 }
 
 body {
@@ -150,4 +154,17 @@ body {
 
   .proj-title {
     font-weight: 100;
+  }
+
+  #map {
+    height: 600px;
+    width: 100%;
+  }
+
+  iframe {
+    padding-top: 10px;
+  }
+
+  .learn {
+    padding-left: 350px;
   }
